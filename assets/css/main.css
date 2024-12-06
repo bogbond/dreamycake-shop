@@ -749,7 +749,7 @@ section,
 
 @media (max-width: 768px) {
   .row {
-    flex-wrap: nowrap; /* Запрещаем перенос строк */
+    flex-wrap: wrap; /* Разрешаем перенос строк */
   }
 
   .row > .col-lg-5 {
@@ -757,6 +757,7 @@ section,
     max-width: 45%; /* Уменьшаем ширину */
   }
 }
+
 
 /* Стили для кнопок (универсально для всех устройств) */
 .image-button {
@@ -844,3 +845,4 @@ section,
     object-position: center; /* Центрируем картинку */
   }
 }
+
